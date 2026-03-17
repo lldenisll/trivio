@@ -80,3 +80,4 @@ Thumbs.db
 # Build artifacts
 dist/
 dist-ssr/
+*Zone.Identifier
