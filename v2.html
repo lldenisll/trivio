@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Trivo — Soluções criativas em brindes, kits corporativos, materiais impressos e projetos personalizados." />
+    <title>Trivo — Ideias que ganham forma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/v2.css" />
+</head>
+
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <header class="nav" id="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">
+                <img src="/Trivo.png" alt="Trivo" />
+            </a>
+            <nav class="nav__links" id="navLinks">
+                <a href="#servicos">Serviços</a>
+                <a href="#estrutura">Estrutura</a>
+                <a href="#store">Trivo Store</a>
+                <a href="#processo">Processo</a>
+                <a href="#clientes">Clientes</a>
+                <a href="#fanzoca">Fanzoca</a>
+            </nav>
+            <a href="https://wa.me/5511965191993?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Trivo."
+                target="_blank" rel="noopener noreferrer" class="nav__cta">
+                Fale Conosco
+            </a>
+            <button class="nav__burger" id="navBurger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <div class="hero__orb hero__orb--1"></div>
+            <div class="hero__orb hero__orb--2"></div>
+            <div class="hero__orb hero__orb--3"></div>
+        </div>
+        <div class="hero__container">
+            <div class="hero__content reveal">
+                <span class="hero__tag">🚀 Produção Criativa & Personalização</span>
+                <h1 class="hero__title">
+                    Ideias que<br>
+                    <span class="gradient-text">ganham forma.</span>
+                </h1>
+                <p class="hero__desc">
+                    Brindes, kits corporativos, materiais impressos e projetos personalizados —
+                    do conceito à entrega, com criatividade e excelência em cada detalhe.
+                </p>
+                <div class="hero__actions">
+                    <a href="https://wa.me/5511965191993?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Trivo."
+                        target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Fale com um Especialista
+                    </a>
+                    <a href="#servicos" class="btn btn--outline">Conheça nossos serviços →</a>
+                </div>
+            </div>
+            <div class="hero__visual reveal reveal--delay-1">
+                <div class="hero__img-wrapper">
+                    <img src="/home.jpeg" alt="Trivo — Produção criativa" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+        <div class="stats__container">
+            <div class="stat reveal">
+                <span class="stat__number" data-target="500">0</span><span class="stat__plus">+</span>
+                <span class="stat__label">Projetos Entregues</span>
+            </div>
+            <div class="stat reveal reveal--delay-1">
+                <span class="stat__number" data-target="120">0</span><span class="stat__plus">+</span>
+                <span class="stat__label">Clientes Ativos</span>
+            </div>
+            <div class="stat reveal reveal--delay-2">
+                <span class="stat__number" data-target="15">0</span>
+                <span class="stat__label">Anos de Mercado</span>
+            </div>
+            <div class="stat reveal reveal--delay-3">
+                <span class="stat__number" data-target="98">0</span><span class="stat__plus">%</span>
+                <span class="stat__label">Satisfação</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="servicos">
+        <div class="services__container">
+            <div class="services__header reveal">
+                <span class="section-tag">O QUE FAZEMOS</span>
+                <h2>Soluções para <span class="gradient-text">cada necessidade</span></h2>
+                <p>Explore nossas principais linhas de serviço e descubra como podemos transformar sua marca.</p>
+            </div>
+            <div class="services__grid">
+                <div class="service-card reveal" style="--card-accent: #c04c31">
+                    <div class="service-card__icon"><img src="/1 - brindes.png" alt="Brindes" /></div>
+                    <h3>Brindes Personalizados</h3>
+                    <p>Ações promocionais, eventos e relacionamento com clientes — cada peça com a cara da sua marca.
+                    </p>
+                    <span class="service-card__arrow">→</span>
+                </div>
+                <div class="service-card reveal reveal--delay-1" style="--card-accent: #1e3376">
+                    <div class="service-card__icon"><img src="/2 - Kits.png" alt="Kits" /></div>
+                    <h3>Kits Corporativos</h3>
+                    <p>Onboarding, campanhas internas, ações de marketing e projetos especiais com identidade.</p>
+                    <span class="service-card__arrow">→</span>
+                </div>
+                <div class="service-card reveal reveal--delay-2" style="--card-accent: #84cc42">
+                    <div class="service-card__icon"><img src="/3 - Eventos.png" alt="Eventos" /></div>
+                    <h3>Materiais para Eventos</h3>
+                    <p>Feiras, ativações de marca, eventos corporativos e ações promocionais impactantes.</p>
+                    <span class="service-card__arrow">→</span>
+                </div>
+                <div class="service-card reveal" style="--card-accent: #f59e0b">
+                    <div class="service-card__icon"><img src="/4 - impressos.png" alt="Impressos" /></div>
+                    <h3>Materiais Impressos</h3>
+                    <p>Catálogos, folders, apresentações — materiais gráficos de alta qualidade.</p>
+                    <span class="service-card__arrow">→</span>
+                </div>
+                <div class="service-card reveal reveal--delay-1" style="--card-accent: #8b5cf6">
+                    <div class="service-card__icon"><img src="/5 - especiais.png" alt="Especiais" /></div>
+                    <h3>Projetos Especiais</h3>
+                    <p>Peças e soluções únicas para demandas que pedem criatividade sem limites.</p>
+                    <span class="service-card__arrow">→</span>
+                </div>
+                <div class="service-card reveal reveal--delay-2" style="--card-accent: #ec4899">
+                    <div class="service-card__icon"><img src="/6 - fanzoca.png" alt="Fanzoca" /></div>
+                    <h3>Lojas Personalizadas</h3>
+                    <p>Criação e gestão de lojas online para marcas, criadores e comunidades.</p>
+                    <span class="service-card__arrow">→</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STRUCTURE -->
+    <section class="feature" id="estrutura">
+        <div class="feature__container">
+            <div class="feature__img reveal">
+                <img src="/estrutura.jpeg" alt="Nossa Estrutura" />
+            </div>
+            <div class="feature__content reveal reveal--delay-1">
+                <span class="section-tag">INFRAESTRUTURA</span>
+                <h2>Equipamentos próprios e<br><span class="gradient-text">parceiros selecionados</span></h2>
+                <p>Contamos com produção interna e uma rede de fornecedores cuidadosamente curados, o que nos permite
+                    combinar diferentes materiais, técnicas e acabamentos para cada projeto.</p>
+                <ul class="feature__list">
+                    <li><span class="feature__check">✓</span> Produção própria e sob demanda</li>
+                    <li><span class="feature__check">✓</span> Diversidade de materiais e técnicas</li>
+                    <li><span class="feature__check">✓</span> Flexibilidade para qualquer volume</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRIVO STORE -->
+    <section class="feature feature--reversed" id="store">
+        <div class="feature__container">
+            <div class="feature__img reveal">
+                <img src="/escolha.jpeg" alt="Trivo Store" />
+            </div>
+            <div class="feature__content reveal reveal--delay-1">
+                <span class="section-tag">TRIVO STORE</span>
+                <h2>Escolha, personalize,<br><span class="gradient-text">receba.</span></h2>
+                <p>Explore nossa loja virtual com centenas de produtos personalizáveis. Envie sua marca, escolha os
+                    itens e faça seu pedido online com toda a rapidez e segurança.</p>
+                <a href="#" class="btn btn--primary">Acesse a Trivo Store →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process" id="processo">
+        <div class="process__container">
+            <div class="process__header reveal">
+                <span class="section-tag">COMO FUNCIONA</span>
+                <h2>Do briefing à <span class="gradient-text">entrega</span></h2>
+                <p>Um processo transparente, colaborativo e eficiente em 5 etapas.</p>
+            </div>
+            <div class="process__timeline">
+                <div class="process__line"></div>
+                <div class="process__step reveal" style="--step-color: #c04c31">
+                    <div class="process__dot">
+                        <img src="/1.png" alt="Briefing" />
+                    </div>
+                    <div class="process__info">
+                        <span class="process__num">01</span>
+                        <h3>Briefing</h3>
+                        <p>Recebemos sua demanda e mergulhamos nos detalhes do projeto.</p>
+                    </div>
+                </div>
+                <div class="process__step reveal reveal--delay-1" style="--step-color: #1e3376">
+                    <div class="process__dot">
+                        <img src="/2.png" alt="Exploração" />
+                    </div>
+                    <div class="process__info">
+                        <span class="process__num">02</span>
+                        <h3>Exploração</h3>
+                        <p>Pesquisamos e encontramos os produtos e materiais ideais.</p>
+                    </div>
+                </div>
+                <div class="process__step reveal reveal--delay-2" style="--step-color: #84cc42">
+                    <div class="process__dot">
+                        <img src="/3.png" alt="Criação" />
+                    </div>
+                    <div class="process__info">
+                        <span class="process__num">03</span>
+                        <h3>Criação</h3>
+                        <p>Desenvolvemos conceitos, artes e peças exclusivas para você.</p>
+                    </div>
+                </div>
+                <div class="process__step reveal" style="--step-color: #c04c31">
+                    <div class="process__dot">
+                        <img src="/4.png" alt="Produção" />
+                    </div>
+                    <div class="process__info">
+                        <span class="process__num">04</span>
+                        <h3>Produção</h3>
+                        <p>Cada detalhe é cuidado para uma experiência impecável.</p>
+                    </div>
+                </div>
+                <div class="process__step reveal reveal--delay-1" style="--step-color: #1e3376">
+                    <div class="process__dot">
+                        <img src="/5.png" alt="Logística" />
+                    </div>
+                    <div class="process__info">
+                        <span class="process__num">05</span>
+                        <h3>Logística</h3>
+                        <p>Entrega planejada com total segurança e rastreio.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="process__cta reveal">
+                <a href="https://wa.me/5511965191993?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+                    target="_blank" rel="noopener noreferrer" class="btn btn--primary">Solicite um Orçamento →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section class="clients" id="clientes">
+        <div class="clients__container">
+            <div class="clients__header reveal">
+                <span class="section-tag">CLIENTES</span>
+                <h2>Empresas que <span class="gradient-text">confiam</span> na Trivo</h2>
+            </div>
+            <div class="clients__ticker-wrap">
+                <div class="clients__ticker">
+                    <div class="clients__item"><img src="/log1.png" alt="Cliente 1"></div>
+                    <div class="clients__item"><img src="/log2.png" alt="Cliente 2"></div>
+                    <div class="clients__item"><img src="/log3.png" alt="Cliente 3"></div>
+                    <div class="clients__item"><img src="/log4.png" alt="Cliente 4"></div>
+                    <div class="clients__item"><img src="/log5.png" alt="Cliente 5"></div>
+                    <div class="clients__item"><img src="/log6.png" alt="Cliente 6"></div>
+                    <div class="clients__item"><img src="/log7.png" alt="Cliente 7"></div>
+                    <div class="clients__item"><img src="/log8.png" alt="Cliente 8"></div>
+                    <div class="clients__item"><img src="/log9.png" alt="Cliente 9"></div>
+                    <div class="clients__item"><img src="/log10.png" alt="Cliente 10"></div>
+                    <div class="clients__item"><img src="/log11.png" alt="Cliente 11"></div>
+                    <div class="clients__item"><img src="/log12.png" alt="Cliente 12"></div>
+                    <div class="clients__item"><img src="/log13.png" alt="Cliente 13"></div>
+                    <div class="clients__item"><img src="/log14.png" alt="Cliente 14"></div>
+                    <div class="clients__item"><img src="/log15.png" alt="Cliente 15"></div>
+                    <div class="clients__item"><img src="/log16.png" alt="Cliente 16"></div>
+                    <!-- duplicate -->
+                    <div class="clients__item"><img src="/log1.png" alt="Cliente 1"></div>
+                    <div class="clients__item"><img src="/log2.png" alt="Cliente 2"></div>
+                    <div class="clients__item"><img src="/log3.png" alt="Cliente 3"></div>
+                    <div class="clients__item"><img src="/log4.png" alt="Cliente 4"></div>
+                    <div class="clients__item"><img src="/log5.png" alt="Cliente 5"></div>
+                    <div class="clients__item"><img src="/log6.png" alt="Cliente 6"></div>
+                    <div class="clients__item"><img src="/log7.png" alt="Cliente 7"></div>
+                    <div class="clients__item"><img src="/log8.png" alt="Cliente 8"></div>
+                    <div class="clients__item"><img src="/log9.png" alt="Cliente 9"></div>
+                    <div class="clients__item"><img src="/log10.png" alt="Cliente 10"></div>
+                    <div class="clients__item"><img src="/log11.png" alt="Cliente 11"></div>
+                    <div class="clients__item"><img src="/log12.png" alt="Cliente 12"></div>
+                    <div class="clients__item"><img src="/log13.png" alt="Cliente 13"></div>
+                    <div class="clients__item"><img src="/log14.png" alt="Cliente 14"></div>
+                    <div class="clients__item"><img src="/log15.png" alt="Cliente 15"></div>
+                    <div class="clients__item"><img src="/log16.png" alt="Cliente 16"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FANZOCA -->
+    <section class="fanzoca" id="fanzoca">
+        <div class="fanzoca__container">
+            <div class="fanzoca__content reveal">
+                <span class="section-tag">FANZOCA</span>
+                <h2>Sua própria loja online,<br><span class="gradient-text">sem complicação.</span></h2>
+                <p>Com a plataforma Fanzoca, criadores, marcas e comunidades ganham uma loja completa de produtos
+                    personalizados. A Trivo cuida do desenvolvimento, produção e logística — você foca na sua
+                    comunidade.</p>
+                <a href="https://fanzocastore.com.br/" target="_blank" rel="noopener noreferrer"
+                    class="btn btn--primary">Conheça a Fanzoca →</a>
+            </div>
+            <div class="fanzoca__img reveal reveal--delay-1">
+                <img src="/fanzoca.jpeg" alt="Fanzoca Store" />
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+        <div class="cta-banner__container reveal">
+            <h2>Pronto para transformar<br>sua próxima <span class="gradient-text">grande ideia</span>?</h2>
+            <p>Junte-se a mais de 120 empresas que confiam na Trivo para seus projetos criativos.</p>
+            <a href="https://wa.me/5511965191993?text=Olá!%20Gostaria%20de%20entrar%20em%20contato%20com%20a%20equipe%20Trivo."
+                target="_blank" rel="noopener noreferrer" class="btn btn--white">
+                Entre em Contato →
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__brand">
+                <img src="/Trivo.png" alt="Trivo" class="footer__logo" />
+                <p>Soluções criativas em brindes, kits corporativos, materiais impressos e projetos personalizados.</p>
+                <div class="footer__social">
+                    <a href="https://wa.me/5511965191993" target="_blank" rel="noopener noreferrer"
+                        class="footer__social-btn" style="background:#25D366" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                        class="footer__social-btn"
+                        style="background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)"
+                        aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
+                        class="footer__social-btn" style="background:#0A66C2" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Navegação</h4>
+                <a href="#servicos">Serviços</a>
+                <a href="#estrutura">Estrutura</a>
+                <a href="#store">Trivo Store</a>
+                <a href="#processo">Processo</a>
+                <a href="#clientes">Clientes</a>
+                <a href="#fanzoca">Fanzoca</a>
+            </div>
+            <div class="footer__col">
+                <h4>Contato</h4>
+                <a href="https://wa.me/5511965191993" target="_blank">📞 (11) 96519-1993</a>
+                <a href="mailto:atendimento@trivoproducoes.com.br">✉️ atendimento@trivoproducoes.com.br</a>
+                <p class="footer__hours">Seg — Sex · 9h às 18h</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__bottom-inner">
+                <p>© 2025 Trivo Produções. Todos os direitos reservados.</p>
+                <div><a href="#">Termos</a><span>·</span><a href="#">Privacidade</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp FAB -->
+    <a href="https://wa.me/5511965191993" target="_blank" rel="noopener noreferrer" class="wa-fab"
+        aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script src="/v2.js"></script>
+</body>
+
+</html>
