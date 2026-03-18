@@ -1,3 +1,4 @@
+import './v2.css'
 // ── V2 — Trivo Reimagined JS ──
 
 // Scroll-triggered reveal animations
