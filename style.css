@@ -64,6 +64,35 @@ img {
     border-radius: 100px;
 }
 
+/* ── Section Divider ── */
+.section-divider {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0.5rem 5%;
+}
+
+.section-divider__line {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    opacity: 0.18;
+}
+
+.section-divider__mark {
+    width: 36px;
+    height: auto;
+    opacity: 0.55;
+    transition: opacity 0.3s var(--ease), transform 0.3s var(--ease);
+}
+
+.section-divider:hover .section-divider__mark {
+    opacity: 0.85;
+    transform: scale(1.1);
+}
+
 /* ── Scroll Progress ── */
 .scroll-progress {
     position: fixed;
@@ -459,7 +488,7 @@ img {
 
 /* ── Services ── */
 .services {
-    padding: 7rem 0;
+    padding: 4.5rem 0;
 }
 
 .services__container {
@@ -575,7 +604,7 @@ img {
 
 /* ── Feature Sections ── */
 .feature {
-    padding: 7rem 0;
+    padding: 4.5rem 0;
 }
 
 .feature:nth-child(odd) {
@@ -654,7 +683,7 @@ img {
 
 /* ── Process ── */
 .process {
-    padding: 7rem 0;
+    padding: 4.5rem 0;
     background: var(--bg);
 }
 
@@ -778,7 +807,7 @@ img {
 
 /* ── Clients ── */
 .clients {
-    padding: 5rem 0;
+    padding: 4rem 0;
     background: var(--white);
 }
 
@@ -854,7 +883,7 @@ img {
 
 /* ── Fanzoca ── */
 .fanzoca {
-    padding: 7rem 0;
+    padding: 4.5rem 0;
     background: var(--bg);
 }
 
@@ -896,7 +925,7 @@ img {
 
 /* ── CTA Banner ── */
 .cta-banner {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, #34558a 100%);
     position: relative;
     overflow: hidden;
